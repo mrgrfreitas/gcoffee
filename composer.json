@@ -1,0 +1,28 @@
+{
+    "name": "gcoffee/gcoffee",
+    "type": "project",
+    "description": "The gCoffee Framework.",
+    "keywords": ["framework", "gcoffee"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geraldo Freitas",
+            "email": "geraldofreitas@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "config/error.php"
+        ]
+    },
+    "require": {
+    	"php": "^8.0.2",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-gd": "*",
+        "gcoffee/framework": "v0.0.1"
+    }
+}
